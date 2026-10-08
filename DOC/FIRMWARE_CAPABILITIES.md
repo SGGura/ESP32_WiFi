@@ -22,11 +22,12 @@
 
 | Сигнал | GPIO ESP8684 | Назначение |
 |---|---:|---|
-| SCLK | GPIO6 | Тактирование от SPI Master |
-| MOSI | GPIO7 | Данные от хоста к ESP |
+| SCLK | GPIO0 | Тактирование от SPI Master |
+| MOSI | GPIO1 | Данные от хоста к ESP |
 | MISO | GPIO2 | Данные от ESP к хосту |
-| CS | GPIO10 | Выбор ESP |
-| HANDSHAKE | GPIO3 | ESP сообщает о готовности транзакции |
+| CS | GPIO3 | Выбор ESP |
+| HANDSHAKE | GPIO4 | ESP сообщает о готовности транзакции |
+| Status LED | GPIO6 | Мигание 2 Гц с момента старта прошивки |
 | UART0 TX | GPIO8 | Только диагностический лог |
 | UART0 RX | GPIO9 | Только диагностическая консоль |
 

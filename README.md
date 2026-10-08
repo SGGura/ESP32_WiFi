@@ -7,11 +7,12 @@ Config: `module_config/module_esp32c2-mini-1-h2x-spi/`
 
 | Signal | GPIO |
 |--------|------|
-| SCLK | 6 |
-| MOSI | 7 |
+| SCLK | 0 |
+| MOSI | 1 |
 | MISO | 2 |
-| CS | 10 |
-| HANDSHAKE | 3 |
+| CS | 3 |
+| HANDSHAKE | 4 |
+| Status LED (2 Hz) | 6 |
 | Console UART TX/RX | 8 / 9 (logs only) |
 
 ## Build
